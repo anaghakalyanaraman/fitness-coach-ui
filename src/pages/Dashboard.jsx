@@ -44,6 +44,11 @@ export default function Dashboard() {
             <h2 className="text-xl font-bold mb-2">Progress</h2>
             <p className="text-gray-500">Track your weight and workout history</p>
           </div>
+
+          <div onClick={() => navigate('/profile')} className="bg-white p-6 rounded-lg shadow cursor-pointer hover:shadow-md transition">
+          <h2 className="text-xl font-bold mb-2">My Profile</h2>
+          <p className="text-gray-500">Set up your fitness profile</p>
+          </div>
         </div>
       </div>
     </div>
