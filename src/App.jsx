@@ -6,6 +6,7 @@ import WorkoutPlan from './pages/WorkoutPlan'
 import Nutrition from './pages/Nutrition'
 import Chat from './pages/Chat'
 import Progress from './pages/Progress'
+import Profile from './pages/Profile'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/nutrition" element={<Nutrition />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/progress" element={<Progress />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   )
