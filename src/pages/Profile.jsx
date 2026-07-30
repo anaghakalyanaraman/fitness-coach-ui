@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import { useNavigate } from 'react-router-'
+import { useNavigate } from 'react-router-dom'
 import API_URL from '../config'
 
 export default function Profile() {
